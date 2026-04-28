@@ -91,25 +91,25 @@ Open the Swagger UI (`http://localhost:3000/api-docs`), execute tests for each e
 Silakan letakkan screenshot pengujian API (melalui Swagger atau Postman) di folder `screenshots/` dan tautkan di bawah ini:
 
 ### 1. Registrasi Pengguna (`POST /api/auth/register`)
-![Screenshot Registrasi](./screenshots/register.png)
+![Screenshot Registrasi](screenshots/register.jpeg)
 
 ### 2. Login Pengguna (`POST /api/auth/login`)
-![Screenshot Login](./screenshots/login.png)
+![Screenshot Login](screenshots/login.jpeg)
 
 ### 3. Lihat Profil User (`GET /api/users/{id}`)
-![Screenshot User Profile](./screenshots/user_profile.png)
+![Screenshot User Profile](screenshots/user_profile.jpeg)
 
 ### 4. Daftar Semua Thread (`GET /api/threads`)
-![Screenshot List Threads](./screenshots/threads_list.png)
+![Screenshot List Threads](screenshots/threads_list.jpeg)
 
 ### 5. Detail Thread (`GET /api/threads/{id}`)
-![Screenshot Thread Detail](./screenshots/thread_detail.png)
+![Screenshot Thread Detail](screenshots/thread_detail.jpeg)
 
 ### 6. Membuat Thread Baru (`POST /api/threads`)
-![Screenshot Create Thread](./screenshots/create_thread.png)
+![Screenshot Create Thread](screenshots/create_thread.jpeg)
 
 ### 7. Update Thread (`PUT /api/threads/{id}`)
-![Screenshot Update Thread](./screenshots/update_thread.png)
+![Screenshot Update Thread](screenshots/update_thread.jpeg)
 
 ### 8. Hapus Thread (`DELETE /api/threads/{id}`)
-![Screenshot Delete Thread](./screenshots/delete_thread.png)
+![Screenshot Delete Thread](screenshots/delete_thread.jpeg)
