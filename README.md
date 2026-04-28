@@ -88,28 +88,27 @@ From the Swagger UI, you can test all the available endpoints:
 Open the Swagger UI (`http://localhost:3000/api-docs`), execute tests for each endpoint (both success and error scenarios), and take screenshots demonstrating the Request URL, Method, Body/Headers, and the Response Status Code & Body.
 
 ## Backend Screenshots
-Silakan letakkan screenshot pengujian API (melalui Swagger atau Postman) di folder `screenshots/` dan tautkan di bawah ini:
 
-### 1. Registrasi Pengguna (`POST /api/auth/register`)
-![Screenshot Registrasi](screenshots/register.jpeg)
+### 1. Register User (`POST /api/auth/register`)
+![Screenshot Register](screenshots/register.jpeg)
 
-### 2. Login Pengguna (`POST /api/auth/login`)
+### 2. Login User (`POST /api/auth/login`)
 ![Screenshot Login](screenshots/login.jpeg)
 
-### 3. Lihat Profil User (`GET /api/users/{id}`)
+### 3. User Profile (`GET /api/users/{id}`)
 ![Screenshot User Profile](screenshots/user_profile.jpeg)
 
-### 4. Daftar Semua Thread (`GET /api/threads`)
+### 4. List Threads (`GET /api/threads`)
 ![Screenshot List Threads](screenshots/threads_list.jpeg)
 
 ### 5. Detail Thread (`GET /api/threads/{id}`)
 ![Screenshot Thread Detail](screenshots/thread_detail.jpeg)
 
-### 6. Membuat Thread Baru (`POST /api/threads`)
+### 6. Create Thread (`POST /api/threads`)
 ![Screenshot Create Thread](screenshots/create_thread.jpeg)
 
 ### 7. Update Thread (`PUT /api/threads/{id}`)
 ![Screenshot Update Thread](screenshots/update_thread.jpeg)
 
-### 8. Hapus Thread (`DELETE /api/threads/{id}`)
+### 8. Delete Thread (`DELETE /api/threads/{id}`)
 ![Screenshot Delete Thread](screenshots/delete_thread.jpeg)
