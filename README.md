@@ -25,7 +25,7 @@ A RESTful API for a Simple Q&A Forum application built with Node.js, Express, an
 
 1. **Clone the repository:**
    ```bash
-   git clone <YOUR_GITHUB_REPO_URL>
+   git clone https://github.com/whtrianto/mileston2
    cd milestone2
    ```
 
@@ -86,3 +86,30 @@ From the Swagger UI, you can test all the available endpoints:
 
 **To generate screenshots for your submission:**
 Open the Swagger UI (`http://localhost:3000/api-docs`), execute tests for each endpoint (both success and error scenarios), and take screenshots demonstrating the Request URL, Method, Body/Headers, and the Response Status Code & Body.
+
+## Backend Screenshots
+Silakan letakkan screenshot pengujian API (melalui Swagger atau Postman) di folder `screenshots/` dan tautkan di bawah ini:
+
+### 1. Registrasi Pengguna (`POST /api/auth/register`)
+![Screenshot Registrasi](./screenshots/register.png)
+
+### 2. Login Pengguna (`POST /api/auth/login`)
+![Screenshot Login](./screenshots/login.png)
+
+### 3. Lihat Profil User (`GET /api/users/{id}`)
+![Screenshot User Profile](./screenshots/user_profile.png)
+
+### 4. Daftar Semua Thread (`GET /api/threads`)
+![Screenshot List Threads](./screenshots/threads_list.png)
+
+### 5. Detail Thread (`GET /api/threads/{id}`)
+![Screenshot Thread Detail](./screenshots/thread_detail.png)
+
+### 6. Membuat Thread Baru (`POST /api/threads`)
+![Screenshot Create Thread](./screenshots/create_thread.png)
+
+### 7. Update Thread (`PUT /api/threads/{id}`)
+![Screenshot Update Thread](./screenshots/update_thread.png)
+
+### 8. Hapus Thread (`DELETE /api/threads/{id}`)
+![Screenshot Delete Thread](./screenshots/delete_thread.png)
